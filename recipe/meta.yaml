@@ -1,5 +1,5 @@
 {% set name = "nokogiri" %}
-{% set version = "1.10.4" %}
+{% set version = "1.10.5" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: fbf91c487d7ceb2b0593384f175843f99152322754f6ff267740bff031cead5a
+  sha256: 279b24ea3e84873be0f7ce3a5661b2864667e6176d919465c7721cb5781bafa0
 
 build:
   number: 0

@@ -22,12 +22,12 @@ requirements:
   build:
     - {{ compiler('c') }}
   host:
-    - ruby
+    - ruby  >2.5
     - libxml2
     - libxslt
     - rb-pkg-config
   run:
-    - ruby
+    - ruby  >2.5
     - rb-mini_portile2 >=2.4.0,<2.5
 
 test:

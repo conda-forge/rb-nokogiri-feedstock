@@ -19,3 +19,6 @@ ruby:
 - '2.6'
 target_platform:
 - linux-64
+zip_keys:
+- - cdt_name
+  - docker_image

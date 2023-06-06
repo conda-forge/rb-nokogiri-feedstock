@@ -3,19 +3,16 @@ MACOSX_DEPLOYMENT_TARGET:
 c_compiler:
 - clang
 c_compiler_version:
-- '11'
+- '15'
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 libxml2:
-- '2.9'
+- '2.10'
 macos_machine:
 - x86_64-apple-darwin13.4.0
-pin_run_as_build:
-  libxml2:
-    max_pin: x.x
 ruby:
-- '2.5'
+- '3.1'
 target_platform:
 - osx-64
